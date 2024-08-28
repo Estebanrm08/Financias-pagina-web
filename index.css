@@ -1,0 +1,320 @@
+/* Logo Styles */
+.logo-icon {
+  height: 71px;
+  width: 72px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+
+/* Fortubil Styles */
+.fortubil {
+  text-decoration: none;
+  height: 39px;
+  position: relative;
+  line-height: 16px;
+  font-weight: 900;
+  color: inherit;
+  display: flex;
+  align-items: center;
+  white-space: nowrap;
+}
+
+.fortubil-wrapper,
+.logo-name {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+.fortubil-wrapper {
+  flex-direction: column;
+  padding: 16px 0 0;
+}
+
+.logo-name {
+  flex-direction: row;
+  gap: var(--gap-3xs);
+  max-width: 100%;
+  cursor: pointer;
+}
+
+/* Course Links Styles */
+.cursos1,
+.contacto,
+.sobre-nosotros1 {
+  text-decoration: none;
+  position: relative;
+  line-height: 16px;
+  font-weight: 600;
+  color: inherit;
+}
+
+.cursos1 {
+  display: inline-block;
+  min-width: 70px;
+}
+
+.sobre-nosotros1 {
+  width: 165.3px;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+
+/* Navigation Styles */
+.nav-items,
+.sobre-nosotros {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+.sobre-nosotros {
+  align-items: flex-start;
+  padding: 0;
+}
+
+.nav-items {
+  margin: 0;
+  align-self: stretch;
+  align-items: flex-end;
+  gap: 54px;
+  text-align: left;
+  font-size: var(--font-size-xl);
+  color: var(--color-white);
+  font-family: var(--font-montserrat);
+}
+
+/* Header and Navigation Styles */
+.encabezado,
+.navigation {
+  display: flex;
+  align-items: flex-start;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+
+.navigation {
+  margin: 0;
+  width: 564px;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: var(--padding-7xl) 0 0;
+}
+
+.encabezado {
+  align-self: stretch;
+  background-color: var(--color-indigo-100);
+  flex-direction: row;
+  justify-content: space-between;
+  padding: var(--padding-3xs) 36px var(--padding-4xs) var(--padding-11xl);
+  mix-blend-mode: normal;
+  top: 0;
+  z-index: 99;
+  position: sticky;
+  gap: var(--gap-xl);
+  text-align: left;
+  font-size: var(--font-size-31xl);
+  color: var(--color-white);
+  font-family: var(--font-montserrat);
+}
+
+/* Tagline and Education Platform Styles */
+.plataforma-de-educacin {
+  position: relative;
+  letter-spacing: 1.4px;
+  line-height: 21px;
+  text-transform: uppercase;
+  font-weight: 800;
+}
+
+.plataforma-de-educacin-financ-wrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 var(--padding-xl) 0 var(--padding-3xl);
+}
+
+/* Despierta Tu Potencial Styles */
+.despierta-tu-potencial-container {
+  margin: 0;
+  align-self: stretch;
+  position: relative;
+  font-size: 70px;
+  line-height: 56px;
+  font-weight: 700;
+  font-family: var(--font-eb-garamond);
+  text-align: center;
+  color: var(--color-black);
+}
+
+.despierta-tu-potencial {
+  margin-block-start: 0;
+  margin-block-end: 30px;
+}
+
+/* Illustration Styles */
+.ilustracion-icon {
+  height: 639px;
+  flex: 1;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  object-fit: cover;
+}
+
+/* Main Content Styles */
+.illustration,
+.principal-inner,
+.tagline-parent {
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+
+.tagline-parent {
+  width: 998px;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 30px;
+}
+
+.principal-inner {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: center;
+  padding: 0 var(--padding-xl);
+  box-sizing: border-box;
+  text-align: left;
+  font-size: var(--font-size-xl);
+  color: #5f259e;
+  font-family: var(--font-montserrat);
+}
+
+/* Search Bar Styles */
+.search-bar-container {
+  width: 549px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+
+.search-bar-container-wrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 var(--padding-2xl) var(--padding-47xl) var(--padding-xl);
+  box-sizing: border-box;
+  max-width: 100%;
+  text-align: center;
+  font-size: 28px;
+  color: var(--color-black);
+  font-family: var(--font-montserrat);
+}
+
+.barra-buscar {
+  align-self: stretch;
+  border-radius: var(--br-61xl);
+  background: linear-gradient(90deg, #5f259e, #470f83 0.01%, #8f38ff);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: var(--padding-3xs) var(--padding-9xl) var(--padding-4xs) var(--padding-27xl);
+  box-sizing: border-box;
+  max-width: 100%;
+  gap: var(--gap-xl);
+  text-align: left;
+  font-size: var(--font-size-xl);
+  color: var(--color-white);
+}
+
+/* How It Works Section Styles */
+.cmo-funciona-fortubil-container {
+  margin: 0;
+  width: 561px;
+  position: relative;
+  font-size: inherit;
+  line-height: 21px;
+  font-weight: 800;
+  font-family: inherit;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+  max-width: 100%;
+}
+
+.how-it-works-title {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 var(--padding-xl) 0 var(--padding-45xl);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+
+/* Feature and Frame Styles */
+.features-grid,
+.kcfdsytif-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.features-grid {
+  flex: 1;
+  align-items: flex-end;
+  gap: 22px;
+  min-width: 584px;
+  max-width: 100%;
+}
+
+.kcfdsytif-wrapper {
+  align-self: stretch;
+  align-items: flex-start;
+  padding: 0 var(--padding-2xl) 0 var(--padding-xl);
+}
+
+/* General Styles */
+.frame-container {
+  width: 377px;
+  flex-direction: column;
+  gap: 15.2px;
+  min-width: 377px;
+}
+
+.features {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: center;
+  gap: 48px;
+  max-width: 100%;
+  text-align: center;
+  font-size: var(--font-size-6xl);
+  font-family: var(--font-montserrat);
+}
+
+/* Miscellaneous Styles */
+.introduccin-a-la {
+  color: inherit;
+}
+.introduccin-a-la-container {
+  align-self: stretch;
+  height: 68px;
+  position: relative;
+  line-height: 33.81px;
+  font-weight: 800;
+  display: flex;
+  align-items: center;
+}
